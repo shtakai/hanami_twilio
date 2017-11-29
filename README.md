@@ -1,13 +1,24 @@
 # Twilio Message
 
-Welcome to your new Hanami project!
+Twilio Message Webhook W/Hanami
+
+## Environment
+
+ruby: 2.4.2
+
+```
+at least
+
+gem 'hanami',       '~> 1.1'
+gem 'hanami-model', '~> 1.1'
+```
 
 ## Setup
 
 How to run tests:
 
 ```
-% bundle exec rake
+% bundle exec rake test
 ```
 
 How to run the development console:
