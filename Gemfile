@@ -4,6 +4,8 @@ gem 'rake'
 gem 'hanami',       '~> 1.1'
 gem 'hanami-model', '~> 1.1'
 
+gem 'twilio-ruby'
+
 gem 'sqlite3'
 
 group :development do
