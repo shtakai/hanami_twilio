@@ -2,9 +2,11 @@ require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
 require_relative '../lib/twilio_message'
+require_relative '../apps/webhooks/application'
 require_relative '../apps/web/application'
 
 Hanami.configure do
+  mount Webhooks::Application, at: '/webhooks'
   mount Web::Application, at: '/'
 
   model do
