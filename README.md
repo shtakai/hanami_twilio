@@ -1,5 +1,7 @@
 # Twilio Message
 
+[![GuardRails badge](https://badges.production.guardrails.io/shtakai/hanami_twilio.svg)](https://www.guardrails.io)
+
 Twilio Message Webhook W/Hanami
 
 ## Environment
